@@ -11,6 +11,15 @@
 		044E6F672C59527800A84428 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E6F662C59527800A84428 /* ContentView.swift */; };
 		044E6F692C59527C00A84428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044E6F682C59527C00A84428 /* Assets.xcassets */; };
 		044E6F6C2C59527C00A84428 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044E6F6B2C59527C00A84428 /* Preview Assets.xcassets */; };
+		047F3CE12C5AB04800902BB1 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 047F3CE02C5AB04800902BB1 /* SDWebImageSwiftUI */; };
+		047F3CE32C5AB07500902BB1 /* SDWebImageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F3CE22C5AB07500902BB1 /* SDWebImageBootcamp.swift */; };
+		047F3CE52C5ABBA700902BB1 /* SDWebImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F3CE42C5ABBA700902BB1 /* SDWebImageLoader.swift */; };
+		049162042C5D4AEE00B5A92F /* ViewModifierCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049162032C5D4AEE00B5A92F /* ViewModifierCamp.swift */; };
+		04C348292C5BFE6600DD3D17 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 04C348282C5BFE6600DD3D17 /* Lottie */; };
+		04C3482B2C5BFFFB00DD3D17 /* logo.json in Resources */ = {isa = PBXBuildFile; fileRef = 04C3482A2C5BFFFB00DD3D17 /* logo.json */; };
+		04C3482F2C5C003A00DD3D17 /* LottieViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C3482E2C5C003A00DD3D17 /* LottieViewHelper.swift */; };
+		04D9177D2C5E87B3002E01CA /* ButtonStyleCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D9177C2C5E87B3002E01CA /* ButtonStyleCamp.swift */; };
+		04D9177F2C5E98A7002E01CA /* ViewBuilderCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D9177E2C5E98A7002E01CA /* ViewBuilderCamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,14 @@
 		044E6F662C59527800A84428 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		044E6F682C59527C00A84428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		044E6F6B2C59527C00A84428 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		044E6F722C59528B00A84428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		047F3CE22C5AB07500902BB1 /* SDWebImageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDWebImageBootcamp.swift; sourceTree = "<group>"; };
+		047F3CE42C5ABBA700902BB1 /* SDWebImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDWebImageLoader.swift; sourceTree = "<group>"; };
+		049162032C5D4AEE00B5A92F /* ViewModifierCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierCamp.swift; sourceTree = "<group>"; };
+		04C3482A2C5BFFFB00DD3D17 /* logo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = logo.json; sourceTree = "<group>"; };
+		04C3482E2C5C003A00DD3D17 /* LottieViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewHelper.swift; sourceTree = "<group>"; };
+		04D9177C2C5E87B3002E01CA /* ButtonStyleCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleCamp.swift; sourceTree = "<group>"; };
+		04D9177E2C5E98A7002E01CA /* ViewBuilderCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047F3CE12C5AB04800902BB1 /* SDWebImageSwiftUI in Frameworks */,
+				04C348292C5BFE6600DD3D17 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +70,18 @@
 		044E6F632C59527800A84428 /* podlearning */ = {
 			isa = PBXGroup;
 			children = (
+				044E6F722C59528B00A84428 /* Info.plist */,
 				044E6F642C59527800A84428 /* podlearningApp.swift */,
 				044E6F662C59527800A84428 /* ContentView.swift */,
 				044E6F682C59527C00A84428 /* Assets.xcassets */,
+				04C3482A2C5BFFFB00DD3D17 /* logo.json */,
 				044E6F6A2C59527C00A84428 /* Preview Content */,
+				047F3CE22C5AB07500902BB1 /* SDWebImageBootcamp.swift */,
+				047F3CE42C5ABBA700902BB1 /* SDWebImageLoader.swift */,
+				04C3482E2C5C003A00DD3D17 /* LottieViewHelper.swift */,
+				049162032C5D4AEE00B5A92F /* ViewModifierCamp.swift */,
+				04D9177C2C5E87B3002E01CA /* ButtonStyleCamp.swift */,
+				04D9177E2C5E98A7002E01CA /* ViewBuilderCamp.swift */,
 			);
 			path = podlearning;
 			sourceTree = "<group>";
@@ -83,6 +110,10 @@
 			dependencies = (
 			);
 			name = podlearning;
+			packageProductDependencies = (
+				047F3CE02C5AB04800902BB1 /* SDWebImageSwiftUI */,
+				04C348282C5BFE6600DD3D17 /* Lottie */,
+			);
 			productName = podlearning;
 			productReference = 044E6F612C59527800A84428 /* podlearning.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +142,10 @@
 				Base,
 			);
 			mainGroup = 044E6F582C59527800A84428;
+			packageReferences = (
+				047F3CDF2C5AB04800902BB1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				04C348272C5BFE6600DD3D17 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 044E6F622C59527800A84428 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				044E6F6C2C59527C00A84428 /* Preview Assets.xcassets in Resources */,
+				04C3482B2C5BFFFB00DD3D17 /* logo.json in Resources */,
 				044E6F692C59527C00A84428 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +173,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047F3CE52C5ABBA700902BB1 /* SDWebImageLoader.swift in Sources */,
 				044E6F672C59527800A84428 /* ContentView.swift in Sources */,
+				04D9177D2C5E87B3002E01CA /* ButtonStyleCamp.swift in Sources */,
+				04D9177F2C5E98A7002E01CA /* ViewBuilderCamp.swift in Sources */,
+				04C3482F2C5C003A00DD3D17 /* LottieViewHelper.swift in Sources */,
 				044E6F652C59527800A84428 /* podlearningApp.swift in Sources */,
+				049162042C5D4AEE00B5A92F /* ViewModifierCamp.swift in Sources */,
+				047F3CE32C5AB07500902BB1 /* SDWebImageBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +239,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -275,6 +317,7 @@
 				DEVELOPMENT_TEAM = 76SR6S8SNL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = podlearning/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +347,7 @@
 				DEVELOPMENT_TEAM = 76SR6S8SNL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = podlearning/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,6 +388,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		047F3CDF2C5AB04800902BB1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+		04C348272C5BFE6600DD3D17 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		047F3CE02C5AB04800902BB1 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 047F3CDF2C5AB04800902BB1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		04C348282C5BFE6600DD3D17 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04C348272C5BFE6600DD3D17 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 044E6F592C59527800A84428 /* Project object */;
 }

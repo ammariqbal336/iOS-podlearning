@@ -11,7 +11,9 @@ import SwiftUI
 struct podlearningApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LottieViewHelper()
+          //  SDWebImageBootcamp()
+            //ContentView()
         }
     }
 }
