@@ -14,6 +14,8 @@
 		047F3CE12C5AB04800902BB1 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 047F3CE02C5AB04800902BB1 /* SDWebImageSwiftUI */; };
 		047F3CE32C5AB07500902BB1 /* SDWebImageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F3CE22C5AB07500902BB1 /* SDWebImageBootcamp.swift */; };
 		047F3CE52C5ABBA700902BB1 /* SDWebImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F3CE42C5ABBA700902BB1 /* SDWebImageLoader.swift */; };
+		048C6B292C5FBE160073BC16 /* PreferenceKeyCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C6B282C5FBE160073BC16 /* PreferenceKeyCamp.swift */; };
+		048C6B2B2C5FC1580073BC16 /* GeometryPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C6B2A2C5FC1580073BC16 /* GeometryPreferenceKey.swift */; };
 		049162042C5D4AEE00B5A92F /* ViewModifierCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049162032C5D4AEE00B5A92F /* ViewModifierCamp.swift */; };
 		04C348292C5BFE6600DD3D17 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 04C348282C5BFE6600DD3D17 /* Lottie */; };
 		04C3482B2C5BFFFB00DD3D17 /* logo.json in Resources */ = {isa = PBXBuildFile; fileRef = 04C3482A2C5BFFFB00DD3D17 /* logo.json */; };
@@ -31,6 +33,8 @@
 		044E6F722C59528B00A84428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		047F3CE22C5AB07500902BB1 /* SDWebImageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDWebImageBootcamp.swift; sourceTree = "<group>"; };
 		047F3CE42C5ABBA700902BB1 /* SDWebImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDWebImageLoader.swift; sourceTree = "<group>"; };
+		048C6B282C5FBE160073BC16 /* PreferenceKeyCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyCamp.swift; sourceTree = "<group>"; };
+		048C6B2A2C5FC1580073BC16 /* GeometryPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKey.swift; sourceTree = "<group>"; };
 		049162032C5D4AEE00B5A92F /* ViewModifierCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierCamp.swift; sourceTree = "<group>"; };
 		04C3482A2C5BFFFB00DD3D17 /* logo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = logo.json; sourceTree = "<group>"; };
 		04C3482E2C5C003A00DD3D17 /* LottieViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewHelper.swift; sourceTree = "<group>"; };
@@ -70,6 +74,7 @@
 		044E6F632C59527800A84428 /* podlearning */ = {
 			isa = PBXGroup;
 			children = (
+				048C6B272C5FBE040073BC16 /* PreferenceKey */,
 				044E6F722C59528B00A84428 /* Info.plist */,
 				044E6F642C59527800A84428 /* podlearningApp.swift */,
 				044E6F662C59527800A84428 /* ContentView.swift */,
@@ -92,6 +97,15 @@
 				044E6F6B2C59527C00A84428 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		048C6B272C5FBE040073BC16 /* PreferenceKey */ = {
+			isa = PBXGroup;
+			children = (
+				048C6B282C5FBE160073BC16 /* PreferenceKeyCamp.swift */,
+				048C6B2A2C5FC1580073BC16 /* GeometryPreferenceKey.swift */,
+			);
+			path = PreferenceKey;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,11 +187,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048C6B2B2C5FC1580073BC16 /* GeometryPreferenceKey.swift in Sources */,
 				047F3CE52C5ABBA700902BB1 /* SDWebImageLoader.swift in Sources */,
 				044E6F672C59527800A84428 /* ContentView.swift in Sources */,
 				04D9177D2C5E87B3002E01CA /* ButtonStyleCamp.swift in Sources */,
 				04D9177F2C5E98A7002E01CA /* ViewBuilderCamp.swift in Sources */,
 				04C3482F2C5C003A00DD3D17 /* LottieViewHelper.swift in Sources */,
+				048C6B292C5FBE160073BC16 /* PreferenceKeyCamp.swift in Sources */,
 				044E6F652C59527800A84428 /* podlearningApp.swift in Sources */,
 				049162042C5D4AEE00B5A92F /* ViewModifierCamp.swift in Sources */,
 				047F3CE32C5AB07500902BB1 /* SDWebImageBootcamp.swift in Sources */,
