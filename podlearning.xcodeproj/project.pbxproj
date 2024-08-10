@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0430A1122C67BF3600C5F8D7 /* CombineCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430A1112C67BF3600C5F8D7 /* CombineCamp.swift */; };
 		044E6F652C59527800A84428 /* podlearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E6F642C59527800A84428 /* podlearningApp.swift */; };
 		044E6F672C59527800A84428 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E6F662C59527800A84428 /* ContentView.swift */; };
 		044E6F692C59527C00A84428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044E6F682C59527C00A84428 /* Assets.xcassets */; };
@@ -23,9 +24,12 @@
 		04C3482F2C5C003A00DD3D17 /* LottieViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C3482E2C5C003A00DD3D17 /* LottieViewHelper.swift */; };
 		04D9177D2C5E87B3002E01CA /* ButtonStyleCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D9177C2C5E87B3002E01CA /* ButtonStyleCamp.swift */; };
 		04D9177F2C5E98A7002E01CA /* ViewBuilderCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D9177E2C5E98A7002E01CA /* ViewBuilderCamp.swift */; };
+		04F42DF72C628C3900D2C58B /* AppTabBarCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F42DF62C628C3900D2C58B /* AppTabBarCamp.swift */; };
+		04F42DF92C628C4A00D2C58B /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F42DF82C628C4A00D2C58B /* CustomTabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0430A1112C67BF3600C5F8D7 /* CombineCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineCamp.swift; sourceTree = "<group>"; };
 		044E6F612C59527800A84428 /* podlearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = podlearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		044E6F642C59527800A84428 /* podlearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = podlearningApp.swift; sourceTree = "<group>"; };
 		044E6F662C59527800A84428 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +46,8 @@
 		04C3482E2C5C003A00DD3D17 /* LottieViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewHelper.swift; sourceTree = "<group>"; };
 		04D9177C2C5E87B3002E01CA /* ButtonStyleCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleCamp.swift; sourceTree = "<group>"; };
 		04D9177E2C5E98A7002E01CA /* ViewBuilderCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderCamp.swift; sourceTree = "<group>"; };
+		04F42DF62C628C3900D2C58B /* AppTabBarCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarCamp.swift; sourceTree = "<group>"; };
+		04F42DF82C628C4A00D2C58B /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0430A1102C67BF1B00C5F8D7 /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				0430A1112C67BF3600C5F8D7 /* CombineCamp.swift */,
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
 		044E6F582C59527800A84428 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +90,8 @@
 		044E6F632C59527800A84428 /* podlearning */ = {
 			isa = PBXGroup;
 			children = (
+				0430A1102C67BF1B00C5F8D7 /* Combine */,
+				04F42DF52C628C2400D2C58B /* CustomTabBar */,
 				048C6B272C5FBE040073BC16 /* PreferenceKey */,
 				044E6F722C59528B00A84428 /* Info.plist */,
 				044E6F642C59527800A84428 /* podlearningApp.swift */,
@@ -109,6 +125,15 @@
 				048C6B2A2C5FC1580073BC16 /* GeometryPreferenceKey.swift */,
 			);
 			path = PreferenceKey;
+			sourceTree = "<group>";
+		};
+		04F42DF52C628C2400D2C58B /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				04F42DF62C628C3900D2C58B /* AppTabBarCamp.swift */,
+				04F42DF82C628C4A00D2C58B /* CustomTabBarView.swift */,
+			);
+			path = CustomTabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,10 +219,13 @@
 				047F3CE52C5ABBA700902BB1 /* SDWebImageLoader.swift in Sources */,
 				044E6F672C59527800A84428 /* ContentView.swift in Sources */,
 				04D9177D2C5E87B3002E01CA /* ButtonStyleCamp.swift in Sources */,
+				04F42DF72C628C3900D2C58B /* AppTabBarCamp.swift in Sources */,
 				04A694932C61391B00866944 /* MatchedGeometryCamp.swift in Sources */,
 				04D9177F2C5E98A7002E01CA /* ViewBuilderCamp.swift in Sources */,
 				04C3482F2C5C003A00DD3D17 /* LottieViewHelper.swift in Sources */,
 				048C6B292C5FBE160073BC16 /* PreferenceKeyCamp.swift in Sources */,
+				04F42DF92C628C4A00D2C58B /* CustomTabBarView.swift in Sources */,
+				0430A1122C67BF3600C5F8D7 /* CombineCamp.swift in Sources */,
 				044E6F652C59527800A84428 /* podlearningApp.swift in Sources */,
 				049162042C5D4AEE00B5A92F /* ViewModifierCamp.swift in Sources */,
 				047F3CE32C5AB07500902BB1 /* SDWebImageBootcamp.swift in Sources */,
