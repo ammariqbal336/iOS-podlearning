@@ -18,6 +18,7 @@
 		048C6B292C5FBE160073BC16 /* PreferenceKeyCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C6B282C5FBE160073BC16 /* PreferenceKeyCamp.swift */; };
 		048C6B2B2C5FC1580073BC16 /* GeometryPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C6B2A2C5FC1580073BC16 /* GeometryPreferenceKey.swift */; };
 		049162042C5D4AEE00B5A92F /* ViewModifierCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049162032C5D4AEE00B5A92F /* ViewModifierCamp.swift */; };
+		04A3E8052C6A767E009B565D /* AdvanceCombineCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3E8042C6A767E009B565D /* AdvanceCombineCamp.swift */; };
 		04A694932C61391B00866944 /* MatchedGeometryCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A694922C61391B00866944 /* MatchedGeometryCamp.swift */; };
 		04C348292C5BFE6600DD3D17 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 04C348282C5BFE6600DD3D17 /* Lottie */; };
 		04C3482B2C5BFFFB00DD3D17 /* logo.json in Resources */ = {isa = PBXBuildFile; fileRef = 04C3482A2C5BFFFB00DD3D17 /* logo.json */; };
@@ -41,6 +42,7 @@
 		048C6B282C5FBE160073BC16 /* PreferenceKeyCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyCamp.swift; sourceTree = "<group>"; };
 		048C6B2A2C5FC1580073BC16 /* GeometryPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKey.swift; sourceTree = "<group>"; };
 		049162032C5D4AEE00B5A92F /* ViewModifierCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierCamp.swift; sourceTree = "<group>"; };
+		04A3E8042C6A767E009B565D /* AdvanceCombineCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvanceCombineCamp.swift; sourceTree = "<group>"; };
 		04A694922C61391B00866944 /* MatchedGeometryCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryCamp.swift; sourceTree = "<group>"; };
 		04C3482A2C5BFFFB00DD3D17 /* logo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = logo.json; sourceTree = "<group>"; };
 		04C3482E2C5C003A00DD3D17 /* LottieViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewHelper.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				0430A1112C67BF3600C5F8D7 /* CombineCamp.swift */,
+				04A3E8042C6A767E009B565D /* AdvanceCombineCamp.swift */,
 			);
 			path = Combine;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				048C6B2B2C5FC1580073BC16 /* GeometryPreferenceKey.swift in Sources */,
 				047F3CE52C5ABBA700902BB1 /* SDWebImageLoader.swift in Sources */,
 				044E6F672C59527800A84428 /* ContentView.swift in Sources */,
+				04A3E8052C6A767E009B565D /* AdvanceCombineCamp.swift in Sources */,
 				04D9177D2C5E87B3002E01CA /* ButtonStyleCamp.swift in Sources */,
 				04F42DF72C628C3900D2C58B /* AppTabBarCamp.swift in Sources */,
 				04A694932C61391B00866944 /* MatchedGeometryCamp.swift in Sources */,

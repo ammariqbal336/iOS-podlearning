@@ -54,6 +54,7 @@ struct CombineCamp: View {
                 ForEach(vm.posts,id: \.id) { post in
                     Text(post.title)
                         .foregroundColor(.blue)
+                        .background(.green)
                     Text(post.body)
                     Spacer(minLength: 20)
                 }
