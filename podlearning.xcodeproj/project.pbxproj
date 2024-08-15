@@ -20,6 +20,7 @@
 		049162042C5D4AEE00B5A92F /* ViewModifierCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049162032C5D4AEE00B5A92F /* ViewModifierCamp.swift */; };
 		04A3E8052C6A767E009B565D /* AdvanceCombineCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3E8042C6A767E009B565D /* AdvanceCombineCamp.swift */; };
 		04A694932C61391B00866944 /* MatchedGeometryCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A694922C61391B00866944 /* MatchedGeometryCamp.swift */; };
+		04A7C9112C6E716900EF31C9 /* FutureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7C9102C6E716900EF31C9 /* FutureBootcamp.swift */; };
 		04C348292C5BFE6600DD3D17 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 04C348282C5BFE6600DD3D17 /* Lottie */; };
 		04C3482B2C5BFFFB00DD3D17 /* logo.json in Resources */ = {isa = PBXBuildFile; fileRef = 04C3482A2C5BFFFB00DD3D17 /* logo.json */; };
 		04C3482F2C5C003A00DD3D17 /* LottieViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C3482E2C5C003A00DD3D17 /* LottieViewHelper.swift */; };
@@ -44,6 +45,7 @@
 		049162032C5D4AEE00B5A92F /* ViewModifierCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierCamp.swift; sourceTree = "<group>"; };
 		04A3E8042C6A767E009B565D /* AdvanceCombineCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvanceCombineCamp.swift; sourceTree = "<group>"; };
 		04A694922C61391B00866944 /* MatchedGeometryCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryCamp.swift; sourceTree = "<group>"; };
+		04A7C9102C6E716900EF31C9 /* FutureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureBootcamp.swift; sourceTree = "<group>"; };
 		04C3482A2C5BFFFB00DD3D17 /* logo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = logo.json; sourceTree = "<group>"; };
 		04C3482E2C5C003A00DD3D17 /* LottieViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewHelper.swift; sourceTree = "<group>"; };
 		04D9177C2C5E87B3002E01CA /* ButtonStyleCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleCamp.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				04D9177C2C5E87B3002E01CA /* ButtonStyleCamp.swift */,
 				04D9177E2C5E98A7002E01CA /* ViewBuilderCamp.swift */,
 				04A694922C61391B00866944 /* MatchedGeometryCamp.swift */,
+				04A7C9102C6E716900EF31C9 /* FutureBootcamp.swift */,
 			);
 			path = podlearning;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				044E6F652C59527800A84428 /* podlearningApp.swift in Sources */,
 				049162042C5D4AEE00B5A92F /* ViewModifierCamp.swift in Sources */,
 				047F3CE32C5AB07500902BB1 /* SDWebImageBootcamp.swift in Sources */,
+				04A7C9112C6E716900EF31C9 /* FutureBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
