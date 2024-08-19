@@ -12,6 +12,7 @@
 		044E6F672C59527800A84428 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E6F662C59527800A84428 /* ContentView.swift */; };
 		044E6F692C59527C00A84428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044E6F682C59527C00A84428 /* Assets.xcassets */; };
 		044E6F6C2C59527C00A84428 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044E6F6B2C59527C00A84428 /* Preview Assets.xcassets */; };
+		046F60F22C73AB4A007F88CC /* CustomBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F60F12C73AB4A007F88CC /* CustomBinding.swift */; };
 		047F3CE12C5AB04800902BB1 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 047F3CE02C5AB04800902BB1 /* SDWebImageSwiftUI */; };
 		047F3CE32C5AB07500902BB1 /* SDWebImageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F3CE22C5AB07500902BB1 /* SDWebImageBootcamp.swift */; };
 		047F3CE52C5ABBA700902BB1 /* SDWebImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F3CE42C5ABBA700902BB1 /* SDWebImageLoader.swift */; };
@@ -38,6 +39,7 @@
 		044E6F682C59527C00A84428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		044E6F6B2C59527C00A84428 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		044E6F722C59528B00A84428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		046F60F12C73AB4A007F88CC /* CustomBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBinding.swift; sourceTree = "<group>"; };
 		047F3CE22C5AB07500902BB1 /* SDWebImageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDWebImageBootcamp.swift; sourceTree = "<group>"; };
 		047F3CE42C5ABBA700902BB1 /* SDWebImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDWebImageLoader.swift; sourceTree = "<group>"; };
 		048C6B282C5FBE160073BC16 /* PreferenceKeyCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyCamp.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				04D9177E2C5E98A7002E01CA /* ViewBuilderCamp.swift */,
 				04A694922C61391B00866944 /* MatchedGeometryCamp.swift */,
 				04A7C9102C6E716900EF31C9 /* FutureBootcamp.swift */,
+				046F60F12C73AB4A007F88CC /* CustomBinding.swift */,
 			);
 			path = podlearning;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046F60F22C73AB4A007F88CC /* CustomBinding.swift in Sources */,
 				048C6B2B2C5FC1580073BC16 /* GeometryPreferenceKey.swift in Sources */,
 				047F3CE52C5ABBA700902BB1 /* SDWebImageLoader.swift in Sources */,
 				044E6F672C59527800A84428 /* ContentView.swift in Sources */,

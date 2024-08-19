@@ -11,7 +11,7 @@ import SwiftUI
 struct podlearningApp: App {
     var body: some Scene {
         WindowGroup {
-            FutureBootcamp()
+            CustomBinding()
           //  SDWebImageBootcamp()
             //ContentView()
         }
