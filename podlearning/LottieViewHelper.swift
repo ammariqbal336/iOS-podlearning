@@ -6,11 +6,12 @@
 //
 
 import SwiftUI
-import Lottie
+//import Lottie
 struct LottieViewHelper: View {
     var body: some View {
-        LottieView(animation: .named("logo"))
-            .playbackMode(.playing(.toProgress(1, loopMode: .loop)))
+        Text("")
+//        LottieView(animation: .named("logo"))
+//            .playbackMode(.playing(.toProgress(1, loopMode: .loop)))
     }
 }
 
